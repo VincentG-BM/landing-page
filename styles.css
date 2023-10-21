@@ -13,7 +13,7 @@ body {
     flex-direction: row;
     align-self: stretch;
     align-items: center;
-    padding: 3px 10%;
+    padding: 15px 10% 0 10%;
 }
 
 .header-logo {
@@ -75,11 +75,53 @@ body {
 .hero-right {
     display: flex;
     align-items: center;
-}
-
-.hero-right {
     object-fit: contain;
     color: #E5E7EB;
     background-color: gray;
     padding: 100px;
+}
+
+
+.info {
+    display: flex;
+    flex-direction: column;
+    align-self: stretch;
+    align-items: center;
+    justify-content: center;
+    padding: 3px 10%;
+    margin: 30px 0px 40px 0px;
+}
+
+.info h2 {
+    font-size: 36px;
+    font-weight: 800;
+    color: #1F2937;
+    margin-bottom: 40px;
+}
+
+.boxes {
+    margin: 20px 0px;
+    display: flex;
+    flex-direction: row;
+    gap: 60px;
+}
+
+.info-box {
+    display: flex;
+    flex-direction: column;
+}
+
+.info-box img {
+    border: 4px solid #3882F6;
+    border-radius: 15px;
+    object-fit: contain;
+    align-self: center;
+    width: 180px;
+    height: 180px;
+}
+
+.info-box p {
+    width: 180px;
+    text-align: center;
+    font-size: 18px;
 }
